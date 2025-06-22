@@ -30,7 +30,7 @@
 
                     <div class="login-icon">
                     <i class="fa-solid fa-user fa-bounce fa-2x"></i>
-                    <h3>Login</h3>
+                    <h3>Sign In</h3>
                     </div>            
         
                     <form action="log" method="post" class="login-form">

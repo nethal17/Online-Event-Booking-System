@@ -1,0 +1,274 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #222;
+    color: #222;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navbar a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    padding: 10px 15px; 
+}
+
+header .navbar a:hover {
+    color: #3867d6; 
+}
+
+header .logo {
+    color: white; 
+    font-size: 24px; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+header .logo span {
+    color: #3867d6; 
+}
+
+header .logo:hover {
+    color: #3867d6; 
+}
+
+.event-counts {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.count-box {
+    background-color: #f0f2f5;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.count-box h2 {
+    margin-top: 10px;
+    color: #3867d6;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile-left {
+    width: 50%; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 10px; 
+}
+
+
+.profile-right {
+    width: 50%; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info h2, .update-password h2 {
+    margin-bottom: 20px;
+}
+
+.profile-actions {
+    margin-top: 20px;
+}
+
+.profile-actions button, .profile-actions input[type="button"] {
+    width: 100%; 
+    padding: 8px; 
+    background-color: #3867d6; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-actions button:hover, .profile-actions input[type="button"]:hover {
+    background-color: #2f55a4; 
+    transform:scale(1.03);
+}
+
+
+.update-password {
+    margin-top: 30px; 
+}
+
+.update-password label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.update-password input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.update-password btn {
+    width: 100%;
+    padding: 8px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-password btn:hover {
+    background-color: #3867d6;
+}
+
+.my-events .event {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.event p {
+    margin: 0;
+}
+
+.event button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.event button:hover {
+    background-color: #45a049;
+}
+
+.add-event {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-event:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #3867d6;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+btn-approve {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #b4321e; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 12px;
+    transition: background-color 0.3s ease; 
+}
+
+.btn-delete:hover {
+    background-color: #c82333; 
+}
+
+
+.btn-activate {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.btn-deactivate {
+    background-color: #ffc107;
+    color: white;
+}
+
+
+.btn {
+    width: 100%; 
+    padding: 8px; 
+    background-color: #3867d6; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; 
+}
+
+.btn:hover {
+    background-color: #2f55a4; 
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.footer span {
+    color: #3867d6;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}

@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.container{
+    display: flex;
+    place-content: center;
+    margin: 100px 250px;
+    
+}
+   
+a{
+    text-decoration: none;
+    color: white;
+}
+.box{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color:hsla(0, 0%, 100%, 0.449);
+    color: hsl(0, 0%, 0%);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+body{
+    font-family: "Ubuntu";
+    background-image: url(low-poly-grid-haikei.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box1{
+    margin-right: 5px;
+
+    img{
+        width: 100%;
+        height: 300px;
+    }
+    
+    p{
+        text-align:justify;
+        font-family: inherit;
+        margin-top: 10px;
+        overflow: auto;
+        height: 150px;
+    }    
+}
+
+.description{
+    margin: 15px 15px 0px 15px;
+}
+
+#box2{
+    margin-left: 5px;
+}
+
+.login-form{
+    display: grid;
+    gap: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: inherit;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: inherit;
+}
+
+input{
+    height: 50px;
+    border: 2px solid rgb(169, 169, 169);
+    font-size: 15px;
+    font-family: inherit;
+    padding-left: 10px;
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+}
+
+button{
+    height: 60px;
+    color: rgb(255, 255, 255);
+    background-color: #333;
+    font-size: 20px;
+    font-family: inherit;
+    letter-spacing: 2px;
+    border: 0;
+    border-radius: 1.25rem;
+    
+}
+
+#sbm1{
+	background-color: #333;
+}
+
+#sbm2{
+    margin-top: 20px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    background-color: #333;
+    font-size: 20px;
+    font-family: inherit;
+    letter-spacing: 2px;
+    border: 0;
+    border-radius: 1.25rem;
+    width: 85%;
+    
+}
+#p1{
+    margin-top: 20px;
+}
+
+a{
+    text-align: left;
+    font-family: inherit;
+    color: #000;
+    margin-left: 5px;
+}
+
+.login-form p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.conditions a, p{
+    font-family: inherit;
+    text-decoration: none;
+    text-align: center;  
+    margin: 0;
+    display: inline-block;
+}
+
+.conditions{
+    margin-top: -20px;
+    a{
+        color: hsl(205, 100%, 44%);
+    }
+}
+
+.login-icon h3, i{
+    display: inline;
+    place-content: left;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+i{
+    margin-right: 5px;
+}
+h3{
+    letter-spacing: 1
+    px;
+}
+
+input:hover{
+    border: 2px solid hsl(240, 100%, 60%);
+}
+
+a:hover{
+    color: hsl(240, 100%, 50%);
+}
+
+#sbm1:hover{
+    background-color: #222;
+    cursor: pointer;
+    
+}
+
+#sbm2:hover{
+    background-color: #222;
+    cursor: pointer;
+    
+}

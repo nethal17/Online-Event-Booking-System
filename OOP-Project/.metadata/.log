@@ -1,0 +1,13 @@
+!SESSION 2025-06-22 11:03:57.153 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/nethalfernando/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/nethalfernando/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-22 11:03:58.438
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-22 11:04:17.196
+!MESSAGE Logback config file: /Users/nethalfernando/eclipse-workspace/Online Event Booking System/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml

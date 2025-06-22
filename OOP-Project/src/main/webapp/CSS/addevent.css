@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/* General styles */
+:root {
+    --theme-color: #3867d6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #222;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navbar a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    padding: 10px 15px; 
+}
+
+header .navbar a:hover {
+    color: #3867d6; 
+}
+
+header .logo {
+    color: white; 
+    font-size: 24px; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+header .logo span {
+    color: #3867d6; 
+}
+
+header .logo:hover {
+    color: #3867d6; 
+}
+
+/* Add Event Section */
+.add-event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.form-container {
+    background: #333;
+    padding: 3rem;
+    border-radius: 1rem;
+    width: 60%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--theme-color);
+}
+
+.event-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+.input-group label {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: #444;
+    color: #fff;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    background: #555;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.input-group input[type="range"] {
+    width: 100%;
+    background: #555;
+    height: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-group input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--theme-color);
+    cursor: pointer;
+}
+
+#price-value {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.btn {
+    padding: 1rem;
+    background: var(--theme-color);
+    color: #fff;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #2f55a4;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.footer span {
+    color: #3867d6;
+}

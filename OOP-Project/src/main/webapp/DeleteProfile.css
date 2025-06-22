@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+/* Reset some basic styling for consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color and font settings for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styling for the form */
+form {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+}
+
+/* Styling for the form title */
+h1 {
+	color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+}
+
+/* Styling for input fields */
+input[type="text"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Styling for readonly input fields */
+input[readonly] {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #c0392b;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+        width: 100%;
+    }
+}
